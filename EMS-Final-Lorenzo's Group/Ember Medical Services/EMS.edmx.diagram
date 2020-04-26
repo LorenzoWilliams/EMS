@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0d7808783e2f41809fe5232ffa8a41b2" Name="Diagram1">
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Appointment" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Attempted_delpayment" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Bill" Width="1.5" PointX="1.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Department" Width="1.5" PointX="1.5" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Nurse" Width="1.5" PointX="3.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Patient" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Payment" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Physician" Width="1.5" PointX="3.75" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Position" Width="1.5" PointX="1.5" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Receptionist" Width="1.5" PointX="3.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Visit" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Appointment_View" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Female_Patients" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Nurses_Patient_View" Width="1.5" PointX="9.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Paid_Patient" Width="1.5" PointX="7.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Patient_Details_View" Width="1.5" PointX="9.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Patients_address" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.Patients_Age" Width="1.5" PointX="11.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.staff_members" Width="1.5" PointX="11.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Appointme__Patie__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Appointme__Physi__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Bills__Patient_i__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Payments__Bill_i__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Nurses__Departme__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Physician__Depar__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Reception__Depar__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Nurses__Position__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Visits__Nurse_id__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Payments__Patien__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Visits__Patient___4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Payments__Recept__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Physician__Posit__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Visits__Physicia__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Reception__Posit__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="Ember_medical_service_dbEMS.FK__Visits__Receptio__4E88ABD4" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Ember_medical_service_dbEMS.User" Width="1.5" PointX="2.875" PointY="3.25" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

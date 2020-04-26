@@ -1,0 +1,21 @@
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember_Medical_Services.Home.resources
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember_Medical_Services.ScheduleAppointment.resources
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember_Medical_Services.Staff_Details.resources
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember_Medical_Services.Patient_Details.resources
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember_Medical_Services.Signup.resources
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember_Medical_Services.Login.resources
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember_Medical_Services.Properties.Resources.resources
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember_Medical_Services.ViewAppointments.resources
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember_Medical_Services.ViewPatients.resources
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember_Medical_Services.ViewStaffs.resources
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember Medical Services.csproj.GenerateResource.cache
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember Medical Services.exe
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\bin\Debug\Ember Medical Services.exe.config
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\bin\Debug\Ember Medical Services.exe
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\bin\Debug\Ember Medical Services.pdb
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\bin\Debug\EntityFramework.dll
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember Medical Services.csproj.CopyComplete
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember Medical Services.pdb
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember Medical Services.csprojAssemblyReference.cache
+C:\Users\Loren.DESKTOP-4ILE5PT\Desktop\Database Management\Ember Medical Services\Ember Medical Services\obj\Debug\Ember_Medical_Services.Edit_Patient.resources

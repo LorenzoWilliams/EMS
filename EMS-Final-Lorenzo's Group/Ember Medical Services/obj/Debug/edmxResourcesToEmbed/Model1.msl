@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Ember_medical_service_dbEMSStoreContainer" CdmEntityContainer="Ember_medical_service_db">
+    <EntitySetMapping Name="Appointments">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Appointment">
+        <MappingFragment StoreEntitySet="Appointments">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Physician_id" ColumnName="Physician_id" />
+          <ScalarProperty Name="Patient_id" ColumnName="Patient_id" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Attempted_delpayment">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Attempted_delpayment">
+        <MappingFragment StoreEntitySet="Attempted_delpayment">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="timestmp" ColumnName="timestmp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bills">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Bill">
+        <MappingFragment StoreEntitySet="Bills">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Patient_id" ColumnName="Patient_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Department">
+        <MappingFragment StoreEntitySet="Departments">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Department1" ColumnName="Department" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nurses">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Nurse">
+        <MappingFragment StoreEntitySet="Nurses">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Department_id" ColumnName="Department_id" />
+          <ScalarProperty Name="Position_id" ColumnName="Position_id" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Patients">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Patient">
+        <MappingFragment StoreEntitySet="Patients">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="D_O_B" ColumnName="D.O.B" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="FirstName_em" ColumnName="FirstName_em" />
+          <ScalarProperty Name="LastName_em" ColumnName="LastName_em" />
+          <ScalarProperty Name="Address_em" ColumnName="Address_em" />
+          <ScalarProperty Name="Phone_em" ColumnName="Phone_em" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Payment">
+        <MappingFragment StoreEntitySet="Payments">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Receptionist_id" ColumnName="Receptionist_id" />
+          <ScalarProperty Name="Bill_id" ColumnName="Bill_id" />
+          <ScalarProperty Name="Patient_id" ColumnName="Patient_id" />
+          <ScalarProperty Name="Pay_Status" ColumnName="Pay_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Physicians">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Physician">
+        <MappingFragment StoreEntitySet="Physicians">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Department_id" ColumnName="Department_id" />
+          <ScalarProperty Name="Position_id" ColumnName="Position_id" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Positions">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Position">
+        <MappingFragment StoreEntitySet="Positions">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Position1" ColumnName="Position" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Receptionists">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Receptionist">
+        <MappingFragment StoreEntitySet="Receptionists">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Department_id" ColumnName="Department_id" />
+          <ScalarProperty Name="Position_id" ColumnName="Position_id" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Visits">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Visit">
+        <MappingFragment StoreEntitySet="Visits">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Receptionist_id" ColumnName="Receptionist_id" />
+          <ScalarProperty Name="Patient_id" ColumnName="Patient_id" />
+          <ScalarProperty Name="Nurse_id" ColumnName="Nurse_id" />
+          <ScalarProperty Name="Weight_lb" ColumnName="Weight_lb" />
+          <ScalarProperty Name="Height_cm" ColumnName="Height_cm" />
+          <ScalarProperty Name="Blood_Pressure" ColumnName="Blood_Pressure" />
+          <ScalarProperty Name="Blood_Sugar" ColumnName="Blood_Sugar" />
+          <ScalarProperty Name="Physician_id" ColumnName="Physician_id" />
+          <ScalarProperty Name="Symptoms" ColumnName="Symptoms" />
+          <ScalarProperty Name="Diagnosis" ColumnName="Diagnosis" />
+          <ScalarProperty Name="Prescription" ColumnName="Prescription" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Appointment_View">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Appointment_View">
+        <MappingFragment StoreEntitySet="Appointment_View">
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Female_Patients">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Female_Patients">
+        <MappingFragment StoreEntitySet="Female_Patients">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="D_O_B" ColumnName="D.O.B" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="FirstName_em" ColumnName="FirstName_em" />
+          <ScalarProperty Name="LastName_em" ColumnName="LastName_em" />
+          <ScalarProperty Name="Address_em" ColumnName="Address_em" />
+          <ScalarProperty Name="Phone_em" ColumnName="Phone_em" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nurses_Patient_View">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Nurses_Patient_View">
+        <MappingFragment StoreEntitySet="Nurses_Patient_View">
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Start" ColumnName="Start" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Position_id" ColumnName="Position_id" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Paid_Patient">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Paid_Patient">
+        <MappingFragment StoreEntitySet="Paid_Patient">
+          <ScalarProperty Name="First_Name" ColumnName="First Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last Name" />
+          <ScalarProperty Name="Pay_Status" ColumnName="Pay Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Patient_Details_View">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Patient_Details_View">
+        <MappingFragment StoreEntitySet="Patient_Details_View">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="First_Name" ColumnName="First Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="D_O_B" ColumnName="D.O.B" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Emerg__First_Name" ColumnName="Emerg. First Name" />
+          <ScalarProperty Name="Emerg__Last_Name" ColumnName="Emerg. Last Name" />
+          <ScalarProperty Name="Emerg__Phone" ColumnName="Emerg. Phone" />
+          <ScalarProperty Name="Emerg__Address" ColumnName="Emerg. Address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Patients_address">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Patients_address">
+        <MappingFragment StoreEntitySet="Patients_address">
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Patients_Age">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.Patients_Age">
+        <MappingFragment StoreEntitySet="Patients_Age">
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="age" ColumnName="age" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="staff_members">
+      <EntityTypeMapping TypeName="Ember_medical_service_dbEMS.staff_members">
+        <MappingFragment StoreEntitySet="staff_members">
+          <ScalarProperty Name="First_Name" ColumnName="First Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="Position_id" ColumnName="Position_id" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionName="Ember_medical_service_dbEMS.Store.AppointmentRange" FunctionImportName="AppointmentRange">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Ember_medical_service_dbEMS.AppointmentRange_Result">
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionName="Ember_medical_service_dbEMS.Store.AppointmentScheduled" FunctionImportName="AppointmentScheduled">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Ember_medical_service_dbEMS.AppointmentScheduled_Result">
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="InputPatients" FunctionName="Ember_medical_service_dbEMS.Store.InputPatients" />
+    <FunctionImportMapping FunctionImportName="PatientsList" FunctionName="Ember_medical_service_dbEMS.Store.PatientsList">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Ember_medical_service_dbEMS.PatientsList_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="D_O_B" ColumnName="D.O.B" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="FirstName_em" ColumnName="FirstName_em" />
+          <ScalarProperty Name="LastName_em" ColumnName="LastName_em" />
+          <ScalarProperty Name="Address_em" ColumnName="Address_em" />
+          <ScalarProperty Name="Phone_em" ColumnName="Phone_em" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UpdatePatientAddress" FunctionName="Ember_medical_service_dbEMS.Store.UpdatePatientAddress" />
+  </EntityContainerMapping>
+</Mapping>
